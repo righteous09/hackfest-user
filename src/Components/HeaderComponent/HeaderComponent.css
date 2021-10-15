@@ -1,0 +1,20 @@
+
+
+.nav_main{
+
+    width: 100vw !important;
+    height: 10vh;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_item{
+    padding: 10px 30px;
+}
+
+.nav_item_heading{
+    color: var(--fifth);
+}
