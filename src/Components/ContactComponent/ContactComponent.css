@@ -1,0 +1,73 @@
+
+
+.contact-container{
+
+    width: 50%;
+    background: var(--primary);
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card{
+
+    margin: auto;
+    padding: 1.5em;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 10px;
+    background-color:var(--first);
+}
+.w-50{
+    width: 50%;
+}
+
+.btn{
+    margin-top: 20px;
+    color: var(--secondary);
+    background-color: var(--primary);
+    padding: 4px 15px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid var(--fourth);
+    cursor: pointer;
+}
+
+.user-card-item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+    color: var(--secondary);
+}
+.user-card-key{
+    color: var(--fourth);
+    align-self: flex-end;
+    width: 30%;
+}
+.user-card-value{
+    color: var(--sixth);
+    letter-spacing: 2px;
+    font-size: 1em;
+    background: transparent;
+    list-style: none;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    border-bottom: 1px solid var(--fourth);
+    justify-self: flex-end;
+    width: 80%;
+}
