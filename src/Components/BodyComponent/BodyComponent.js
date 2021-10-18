@@ -1,7 +1,7 @@
 import React from 'react';
-import './FooterComponent.css'
 
-class  FooterComponent extends React.Component{
+
+class  BodyComponent extends React.Component{
 
     constructor(){
         super();
@@ -15,11 +15,11 @@ class  FooterComponent extends React.Component{
 
         return(
 
-            <div className="footer-main">
+            <div className="body-main">
 
-                <div className="footer-container">
+                <div className="body-container">
 
-                    <div className="footer-section">
+                    <div className="body-section">
                         
                     </div>
 
@@ -31,4 +31,4 @@ class  FooterComponent extends React.Component{
     }
 }
 
-export default FooterComponent;
+export default BodyComponent;
