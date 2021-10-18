@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './FooterComponent.css'
 
 class  FooterComponent extends React.Component{
 
@@ -15,12 +15,12 @@ class  FooterComponent extends React.Component{
 
         return(
 
-            <div className="footer_main">
+            <div className="footer-main">
 
-                <div className="footer_container">
+                <div className="footer-container">
 
-                    <div className="footer_section">
-                        
+                    <div className="footer-section">
+
                     </div>
 
                 </div>

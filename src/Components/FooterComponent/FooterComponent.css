@@ -1,0 +1,20 @@
+.footer_main{
+    width: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-section{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
